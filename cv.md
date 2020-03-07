@@ -10,3 +10,7 @@ eugenefed91@gmail.com
 5. https://github.com/EugeneFedo/JavaCore2019
 
 6. Have some practice on Javarush and Codewars
+
+7. Linux administration and Java development courses at IT-Academy
+
+8. B1. Have a good reading and speaking skills.
