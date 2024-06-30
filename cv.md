@@ -37,3 +37,15 @@ function gooseFilter (birds) {
 return birds;
 };
 ```
+
+## Trainings:
+* The Odin Project
+* FreeCodeCamp
+* JavaRush
+* Java SE IT-Academy
+* Linux Administration IT-Academy
+
+## Languages:
+* English - Upper-intermediate
+* Polish - Basic
+* Russian - Native
