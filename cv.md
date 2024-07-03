@@ -19,7 +19,7 @@ I have experience in department management. Have 5 years of experience as a head
 * Python
 * Linux administration, Apache, , SQL, Php, Bash
 * HTML5, CSS3, Vanilla JS
-* Timemanagment and efficiency
+* Timemanagement and efficiency
 
 ## Code Example:
 
