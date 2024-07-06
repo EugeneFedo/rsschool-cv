@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,24 +17,30 @@ body {
 }
 
 .header {
-    background-color: black;
+    background-color:#0D1E26;
     color: white;
 }
 
 h1 {
     font-size: 40px;
     font-weight: 600;
+    padding: 30px 0;
 }
 
 .container {
-    max-width: 1024px;
+    width: 1024px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 30px 100px;
 }
 
 .contacts {
     display: flex;
     justify-content: space-between;
+}
+
+.contact-icon {
+    width: 25px;
+    margin-right: 15px;
 }
 
 .img-wrapper {
@@ -42,8 +52,41 @@ h1 {
     width: auto;
 }
 
+.contact-list {
+    list-style: none;
+    border-left: 2px solid #FFD74B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-item {
+    padding-left: 20px;
+    display: flex;
+    color: #FFD74B;
+    text-decoration: underline 1px #FFD74B;
+}
+
 .nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding-right: 45px;
+}
+
+#last-item {
+    border-width: 0;
+    padding: 0;
 }
