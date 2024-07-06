@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-wrapper {
+
+}
+
+.photo {
+    height: 200px;
+    width: auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
