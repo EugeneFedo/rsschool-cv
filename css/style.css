@@ -49,10 +49,6 @@ h2 {
     margin-right: 15px;
 }
 
-.img-wrapper {
-
-}
-
 .photo {
     width: 200px;
     border: 2px solid #FFD74B;
@@ -113,13 +109,13 @@ header > .container {
     display: flex;
     border-right: 5px solid #1C3A56;
     align-items: center;
-    padding-right: 100px;
+    padding-right: 70px;
 }
 
 .skills-wrapper {
     display: flex;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 70px;
     border-left: 5px solid #1C3A56;
 }
 
@@ -132,7 +128,7 @@ header > .container {
 
 #aboutme > p {
     width: 500px;
-    padding: 0px 40px;
+    padding: 0px 80px;
 }
 
 .user-icon {
@@ -140,5 +136,62 @@ header > .container {
 }
 
 .courses-list {
-    padding: 0px 40px;
+    padding: 0px 80px;
+}
+
+.courses-container {
+    background-color: #FFD74B;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+.trainings-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 0px 20px -20px;
+}
+
+.languages-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 0px 20px -20px;
+}
+
+.courses-icon {
+    margin-right: 15px;
+}
+
+#code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.code-example {
+    background-color: #0D1E26;
+    margin: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.code-example-wrapper {
+    margin: 0px 10px -10px -200px;
+}
+
+.code-header {
+    font-size: 25px;
+}
+
+.code-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.code-icon {
+    margin-right: 15px;
 }
