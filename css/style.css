@@ -195,3 +195,15 @@ header > .container {
 .code-icon {
     margin-right: 15px;
 }
+
+.footer-container {
+    background-color: #FFD74B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.year {
+    font-weight: 800;
+}
