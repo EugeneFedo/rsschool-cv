@@ -1,0 +1,209 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 30px 100px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-icon {
+    width: 25px;
+    margin-right: 15px;
+}
+
+.photo {
+    width: 200px;
+    border: 2px solid #FFD74B;
+    border-radius: 30px;
+}
+
+.contact-list {
+    list-style: none;
+    border-left: 2px solid #FFD74B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-item {
+    padding-left: 20px;
+    display: flex;
+    color: #FFD74B;
+    text-decoration: underline 1px #FFD74B;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding-right: 45px;
+    text-transform: uppercase;          
+}
+
+#last-item {
+    border-width: 0;
+    padding: 0;
+}
+
+header > .container {
+    background-color:#0D1E26;
+}
+
+#aboutme {
+    display: flex;
+    height: 150px;
+    margin: 80px 0;
+}
+
+.about-me-wrapper {
+    display: flex;
+    border-right: 5px solid #1C3A56;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.skills-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    border-left: 5px solid #1C3A56;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 150px;
+    margin: 80px 0;
+}
+
+#aboutme > p {
+    width: 500px;
+    padding: 0px 80px;
+}
+
+.user-icon {
+    margin-right: 15px;
+}
+
+.courses-list {
+    padding: 0px 80px;
+}
+
+.courses-container {
+    background-color: #FFD74B;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+.trainings-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 0px 20px -20px;
+}
+
+.languages-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 0px 20px -20px;
+}
+
+.courses-icon {
+    margin-right: 15px;
+}
+
+#code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.code-example {
+    background-color: #0D1E26;
+    margin: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.code-example-wrapper {
+    margin: 0px 10px -10px -200px;
+}
+
+.code-header {
+    font-size: 25px;
+}
+
+.code-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.code-icon {
+    margin-right: 15px;
+}
+
+.footer-container {
+    background-color: #FFD74B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.year {
+    font-weight: 800;
+}
