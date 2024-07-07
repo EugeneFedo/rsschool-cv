@@ -11,13 +11,13 @@ html {
 body {
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
+    font-weight: 400;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .header {
-    background-color:#0D1E26;
     color: white;
 }
 
@@ -25,6 +25,12 @@ h1 {
     font-size: 40px;
     font-weight: 600;
     padding: 30px 0;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .container {
@@ -48,8 +54,9 @@ h1 {
 }
 
 .photo {
-    height: 200px;
-    width: auto;
+    width: 200px;
+    border: 2px solid #FFD74B;
+    border-radius: 30px;
 }
 
 .contact-list {
@@ -84,9 +91,54 @@ h1 {
     text-decoration: none;
     border-right: 1px solid white;
     padding-right: 45px;
+    text-transform: uppercase;          
 }
 
 #last-item {
     border-width: 0;
     padding: 0;
+}
+
+header > .container {
+    background-color:#0D1E26;
+}
+
+#aboutme {
+    display: flex;
+    height: 150px;
+    margin: 80px 0;
+}
+
+.about-me-wrapper {
+    display: flex;
+    border-right: 5px solid #1C3A56;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.skills-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    border-left: 5px solid #1C3A56;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 150px;
+    margin: 80px 0;
+}
+
+#aboutme > p {
+    width: 500px;
+    padding: 0px 40px;
+}
+
+.user-icon {
+    margin-right: 15px;
+}
+
+.courses-list {
+    padding: 0px 40px;
 }
